@@ -1,5 +1,5 @@
 {
-  "name": "i18next-remote-backend-with-locals",
+  "name": "@autofleet/i18next-remote-backend-with-locals",
   "version": "1.0.0",
   "description": "An i18next backend plugin to work with both local resources and remote backend.",
   "main": "src/index.js",
