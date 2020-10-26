@@ -55,6 +55,40 @@ As with all modules you can either pass the constructor function (class) to the 
 }
 ```
 
+Options can passed in:
+
+**Preffered** - by setting 'backend' property on i18next.init:
+
+```js
+import i18next from 'i18next';
+import Backend from 'i18next-remote-backend-with-locals';
+
+i18next
+  .use(Backend)
+  .init({
+    backend: options
+  });
+```
+
+On construction:
+
+```js
+import Backend from 'i18next-remote-backend-with-locals';
+
+const Backend = new Backend(null, options);
+const Backend = new Backend();
+  Backend.init(null, options);
+```
+
+Via calling init:
+
+```js
+import Backend from 'i18next-remote-backend-with-locals';
+
+const Backend = new Backend();
+Backend.init(null, options);
+```
+
 # Complete Sample
 
 ```js
