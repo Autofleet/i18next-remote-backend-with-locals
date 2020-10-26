@@ -89,7 +89,7 @@ const Backend = new Backend();
 Backend.init(null, options);
 ```
 
-# Complete Sample
+## Complete Sample
 
 ```js
 import i18next from 'i18next';
@@ -126,3 +126,8 @@ i18next
     },
   });
 ```
+
+# Not supported
+
+- i18next Namespaces
+- Multiple backends
