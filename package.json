@@ -1,0 +1,42 @@
+{
+  "name": "i18next-remote-backend-with-locals",
+  "version": "1.0.0",
+  "description": "An i18next backend plugin to work with both local resources and remote backend.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "linter": "./node_modules/.bin/eslint ."
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Autofleet/i18next-remote-backend-with-locals.git"
+  },
+  "author": "Itay Ankri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Autofleet/i18next-remote-backend-with-locals/issues"
+  },
+  "homepage": "https://github.com/Autofleet/i18next-remote-backend-with-locals#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel": "^6.23.0",
+    "babel-jest": "^26.6.1",
+    "eslint": "^7.12.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.1"
+  },
+  "files": [
+    "src//*"
+  ]
+}
