@@ -131,3 +131,4 @@ i18next
 
 - i18next Namespaces
 - Multiple backends
+- Resource Cache
