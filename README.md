@@ -8,14 +8,14 @@ This backend will first load the local resources, and then will override them wi
 Installation via NPM:
 
 ```
-$ npm install i18next-remote-backend-with-locals
+$ npm install @autofleet/i18next-remote-backend-with-locals
 ```
 
 Setup:
 
 ```js
 import i18next from 'i18next';
-import Backend from 'i18next-remote-backend-with-locals';
+import Backend from '@autofleet/i18next-remote-backend-with-locals';
 
 i18next
   .use(Backend)
@@ -61,7 +61,7 @@ Options can passed in:
 
 ```js
 import i18next from 'i18next';
-import Backend from 'i18next-remote-backend-with-locals';
+import Backend from '@autofleet/i18next-remote-backend-with-locals';
 
 i18next
   .use(Backend)
@@ -73,7 +73,7 @@ i18next
 On construction:
 
 ```js
-import Backend from 'i18next-remote-backend-with-locals';
+import Backend from '@autofleet/i18next-remote-backend-with-locals';
 
 const Backend = new Backend(null, options);
 const Backend = new Backend();
@@ -83,7 +83,7 @@ const Backend = new Backend();
 Via calling init:
 
 ```js
-import Backend from 'i18next-remote-backend-with-locals';
+import Backend from '@autofleet/i18next-remote-backend-with-locals';
 
 const Backend = new Backend();
 Backend.init(null, options);
@@ -93,7 +93,7 @@ Backend.init(null, options);
 
 ```js
 import i18next from 'i18next';
-import Backend from 'i18next-remote-backend-with-locals';
+import Backend from '@autofleet/i18next-remote-backend-with-locals';
 import i18NextHttpBackend from 'i18next-http-backend';
 import en from './en.json';
 import ja from './ja.json';
